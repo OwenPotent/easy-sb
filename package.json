@@ -2,7 +2,7 @@
   "name": "easy-sb",
   "version": "1.0.0",
   "description": "An easy to use package that simplifies \"@supabase/supabase-js\" into easier functions!",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc -build",
     "publish": "npm run build && npm run prepare",
