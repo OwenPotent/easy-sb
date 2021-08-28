@@ -37,8 +37,8 @@ export class SBClient {
      * @param table SQL Table from Supabase Dashboard
      * @returns All values from the table
      */
-    public async getAllValueFromTable(table: string) {
-        const data = await this.client.from(table)
+    public async getAll(table: string) {
+        const data = await this.client.from(table).select("*")
 
         return data.data;
     }

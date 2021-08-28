@@ -19,7 +19,7 @@ export declare class SBClient {
      * @param table SQL Table from Supabase Dashboard
      * @returns All values from the table
      */
-    getAllValueFromTable(table: string): Promise<any[] | null>;
+    getAll(table: string): Promise<any[] | null>;
     /**
      * Performs a "DELETE" method on the given table, that being deleting the given table from the Database
      *
