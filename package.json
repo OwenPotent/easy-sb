@@ -1,0 +1,23 @@
+{
+  "name": "easy-sb",
+  "version": "1.0.0",
+  "description": "An easy to use package that simplifies \"@supabase/supabase-js\" into easier functions!",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -build",
+    "publish": "npm run build && npm run prepare",
+    "prepare": "npm publish"
+  },
+  "keywords": [
+    "database",
+    "supabase",
+    "db",
+    "utility",
+    "easy to use"
+  ],
+  "author": "owenpotent",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.22.3"
+  }
+}
